@@ -1,0 +1,261 @@
+@import "layout.css";
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	color: #656664;
+ 	font-size: 75%;
+	line-height: 1.4em;
+ 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height: 100%;
+}
+
+label
+{
+	cursor: hand;
+}
+
+.spacer
+{
+	clear: both;
+}
+
+hr
+{
+	display: none;
+}
+
+h2
+{
+	padding: 10px 0 10px 0;
+}
+
+a, a:link, a:visited
+{
+	color: #036F96;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #333;
+}
+
+.left
+{
+	float: left;
+	margin-right: 1em;
+}
+
+img 
+{
+	border: none;	
+}
+
+code, pre
+{
+	font-family:"Courier New",Courier,monospace;
+	font-size:small;
+}
+
+.right
+{
+	float: right;
+	margin-left: 1em;
+}
+
+/* -- Top -- */
+#title
+{
+	margin: 0;
+	padding-right: 75px;
+	color: #000;
+	background: #EFEFEF;
+	text-align: right;
+}
+
+#header #title h1
+{
+	height: 80px;
+	line-height: 80px;
+	margin: 0;
+}
+	
+#header #title h1 a
+{
+	text-decoration: none;
+	color: #000;
+	
+}
+
+/* -- Menu -- */
+#menu
+{
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #222;
+	margin: 0;
+	padding: 0;
+	background-color: #ACF;
+	font-family: verdana,sans-serif;
+	font-size: 11px;
+	text-align: right;
+}
+
+#menu li
+{
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#menu li a#selected
+{
+	border-bottom: 2px solid #000;
+}
+
+#menu li a:hover
+{
+	border-bottom: 2px solid #333;
+}
+
+/* -- main -- */
+#main
+{
+}
+
+/* -- last-news -- */
+#last-news
+{
+	background: #EFF4FA;
+	border: 1px solid #9CB4CE;
+	width: 450px;
+	float: right;
+	padding: 5px;
+}
+
+#last-news .date
+{
+	font-weight: bold;	
+	font-size: small;
+}
+
+/* -- Google AdSense -- */
+#google_ad
+{
+	margin: auto;
+	text-align: center;
+	margin: 5px;
+}
+
+/* -- post -- */
+.post
+{
+	border-bottom: 1px dashed #ccc;
+}
+
+.post .title
+{
+	
+}
+
+.post .date
+{
+	
+}
+
+
+/* -- special -- */
+#download-link
+{
+	display: block;
+	height: 80px;	
+	width: 290px;
+	padding: 0;
+	text-align: center;
+	cursor: hand;
+	border: 1px solid #CC6600;
+	background: #FFECCE;
+}
+
+#download-link span
+{
+	display: block;
+	padding: 25px 0 0 0;
+	height: 50px;
+}
+
+/* -- content -- */
+.content-title
+{
+	color: #036F96;
+}
+
+/* -- accessibility menu -- */		
+#accessibility
+{
+	display: none;
+}
+
+/* -- Notes -- */
+// notes
+.NOTES-header 
+{
+	display: none;
+}
+
+.NOTES-list
+{
+	background: #ccc;
+}
+
+.NOTES label
+{
+	font-weight: bold;	
+}
+
+// note
+.NOTE-header 
+{
+	padding-top: 15px;
+	border-top: 1px dashed #999;	
+	
+}
+
+.NOTE-date 
+{
+	font-size: small;
+}
+
+.NOTE-body 
+{
+	background: #fff;
+}	
+
+.NOTE-ua 
+{
+	font-size: small;
+}
+
+
+/* -- Stats -- */
+#stats
+{
+	display: none;
+}
+
+/* -- Footer -- */
+#footer
+{
+	
+	height: 27px;
+	color: #666;
+}
+
+#footer a
+{
+	color: #7c7c7c;
+}
