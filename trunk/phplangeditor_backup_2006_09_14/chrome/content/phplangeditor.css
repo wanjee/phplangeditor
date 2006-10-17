@@ -1,0 +1,62 @@
+﻿@import url(chrome://global/skin/);
+
+.textBoxHeader
+{
+	border: 1px solid #000;
+	background-color: #C1CFDD;	
+	padding: 0;
+	margin: 2px 4px 1px 4px;
+}
+
+treechildren::-moz-tree-row
+{
+	border-bottom: dashed 1px #eee;
+}
+
+treechildren::-moz-tree-row(selected)
+{
+	background-color: #C1CFDD;
+	border-style: none;
+	border-bottom: dashed 1px #09C;
+	border-top: dashed 1px #09C;
+}
+
+treechildren::-moz-tree-cell-text(selected,current)
+{
+	color: #000;
+}
+
+/* about dialog */
+.aboutWindow
+{
+	width:550px;
+}
+
+.aboutBox
+{
+	background-color: #C1CFDD;
+	padding: 10px;
+}
+
+.aboutProductName
+{
+	font-weight: bold; 
+	font-size: x-large;
+}
+
+.aboutSubtitle
+{
+	font-weight: bold;
+}
+
+.aboutUrl
+{
+	cursor: pointer;
+	color: #3A69A6;
+}
+
+.aboutHelp,
+.aboutTips
+{
+	margin : 0 0 0 6px;
+}

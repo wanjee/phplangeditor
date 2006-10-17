@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="phplangeditor.css" type="text/css"?>
+
+<?xul-overlay href="chrome://phplangeditor/content/menuOverlay.xul"?>
+
+<!DOCTYPE window SYSTEM "chrome://phplangeditor/locale/phplangeditor.dtd">
+
+<window 
+		id="main-window" 
+		title="&application.name; &application.version;"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		onload="startup()"
+		onclose="return doQuit()"
+		width="800"
+		height="600"
+		persist="width height screenX screenY sizemode">
+        
+	<script type="application/x-javascript" language="JavaScript1.2" src="chrome://phplangeditor/content/phplangeditor.js" />
+	<script type="application/x-javascript" language="JavaScript1.2" src="chrome://phplangeditor/content/utils.js" />
+	<script type="application/x-javascript" language="JavaScript1.2" src="chrome://phplangeditor/content/command.js" />
+	<script type="application/x-javascript" language="JavaScript1.2" src="chrome://phplangeditor/content/dialog.js" />
+	<script type="application/x-javascript" language="JavaScript1.2" src="chrome://phplangeditor/content/interfaceElt.js" />
+
+	<stringbundle id="phplangeditor-strings" src="chrome://phplangeditor/locale/phplangeditor.properties"/>
+
+	<keyset id="main-keys" />
+	
+	<toolbox>
+		<menubar id="main-menubar" />
+		
+		<toolbar id="main-toolbar" />
+	</toolbox>
+
+	<hbox flex="1">
+		<hbox flex="1">
+			<vbox flex="1" style="min-width: 200px;">
+				<tree id="fieldsList" flex="1" seltype="single" onselect="useCurrent()" hidecolumnpicker="true">
+					<treecols>
+						<treecol id="items" flex="1" label="&treecol.string;"/>
+					</treecols>
+					<treechildren/>
+				</tree>
+			</vbox>
+			<splitter style="width: 2px; max-width: 2px;
+					-moz-border-left-colors:transparent !important;
+					-moz-border-right-colors:transparent !important;"
+					collapse="none" resizebefore="closest" resizeafter="closest">
+				<grippy/>
+			</splitter>
+			<vbox flex="3" style="min-width: 200px;">
+				<hbox class="textBoxHeader">
+					<label value="&label.reference;" flex="1" />
+					<menulist id="sourceCharsetList" oncommand="setSourceCharset();">
+						<menupopup id="sourceCharsetListPopup" datasources="rdf:null" ref="http://www.phplangeditor-charset.com/all-charsets">
+							<template>
+								<rule>
+									<menuitem uri="rdf:*" label="rdf:http://www.phplangeditor-charset.com/rdf#name" value="rdf:http://www.phplangeditor-charset.com/rdf#value" />
+								</rule>
+							</template>
+						</menupopup>
+					</menulist>
+				</hbox>
+				<textbox readonly="true" id="originalString-box" multiline="true" flex="1" />
+	
+				<hbox class="textBoxHeader">
+					<label value="&label.translation;" flex="1" />
+					<menulist id="translationCharsetList" oncommand="setTranslationCharset();">
+						<menupopup id="translationCharsetListPopup" datasources="rdf:null" ref="http://www.phplangeditor-charset.com/all-charsets">
+							<template>
+								<rule>
+									<menuitem uri="rdf:*" label="rdf:http://www.phplangeditor-charset.com/rdf#name" value="rdf:http://www.phplangeditor-charset.com/rdf#value" />
+								</rule>
+							</template>
+						</menupopup>
+					</menulist>
+				</hbox>
+				<textbox id="translatedString-box" multiline="true" flex="1" oninput="saveCurrentItem()"/>
+	
+				<hbox>
+					<spacer flex="1" />
+					<button id="goToNextBtn" oncommand="goToNext()" label=" &button.next;" image="./img/return.png" />
+				</hbox>
+			</vbox>
+		</hbox>
+	</hbox>
+
+<statusbar>
+<statusbarpanel id="statusbarContent" crop="end" flex="1" />
+</statusbar>
+
+</window>

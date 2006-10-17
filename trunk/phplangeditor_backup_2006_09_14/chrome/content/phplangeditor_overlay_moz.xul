@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<overlay id="phplangeditor"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<!-- Mozilla -->
+	<menupopup id="taskPopup">
+		<menuseparator/>
+        <menuitem id="phplangeditor-menu"
+			label="PHP lang editor"
+			oncommand="window.openDialog('chrome://phplangeditor/content/phplangeditor.xul','phplangeditor','chrome,centerscreen,resizable=yes,dialog=no')"
+			 />
+	</menupopup>
+
+</overlay>

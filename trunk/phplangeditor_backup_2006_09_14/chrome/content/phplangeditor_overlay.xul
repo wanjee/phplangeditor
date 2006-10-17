@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<overlay id="phplangeditor"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<menupopup id="menu_ToolsPopup">
+		<menuitem id="phplangeditorOpen"
+			label="PHP lang editor" 
+			oncommand="window.openDialog('chrome://phplangeditor/content/phplangeditor.xul','phplangeditor','chrome,centerscreen,resizable=yes,dialog=no').focus()" 
+			class="menuitem-iconic"
+			insertbefore="prefSep"/>
+	</menupopup>
+
+</overlay>

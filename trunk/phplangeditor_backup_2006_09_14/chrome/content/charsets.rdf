@@ -1,0 +1,474 @@
+﻿<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:CHARSET="http://www.phplangeditor-charset.com/rdf#">
+
+  <RDF:Seq RDF:about="http://www.phplangeditor-charset.com/all-charsets">
+	<RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/armscii-8">
+         <CHARSET:name>armscii-8</CHARSET:name>
+         <CHARSET:value>armscii-8</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/Big5">
+         <CHARSET:name>Big5</CHARSET:name>
+         <CHARSET:value>Big5</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/Big5-HKSCS">
+         <CHARSET:name>Big5-HKSCS</CHARSET:name>
+         <CHARSET:value>Big5-HKSCS</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/EUC-JP">
+         <CHARSET:name>EUC-JP</CHARSET:name>
+         <CHARSET:value>EUC-JP</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/EUC-KR">
+         <CHARSET:name>EUC-KR</CHARSET:name>
+         <CHARSET:value>EUC-KR</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/gb18030">
+         <CHARSET:name>gb18030</CHARSET:name>
+         <CHARSET:value>gb18030</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/GB2312">
+         <CHARSET:name>GB2312</CHARSET:name>
+         <CHARSET:value>GB2312</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/GEOSTD8">
+         <CHARSET:name>GEOSTD8</CHARSET:name>
+         <CHARSET:value>GEOSTD8</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/HZ-GB-2312">
+         <CHARSET:name>HZ-GB-2312</CHARSET:name>
+         <CHARSET:value>HZ-GB-2312</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/IBM850">
+         <CHARSET:name>IBM850</CHARSET:name>
+         <CHARSET:value>IBM850</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/IBM852">
+         <CHARSET:name>IBM852</CHARSET:name>
+         <CHARSET:value>IBM852</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/IBM855">
+         <CHARSET:name>IBM855</CHARSET:name>
+         <CHARSET:value>IBM855</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/IBM857">
+         <CHARSET:name>IBM857</CHARSET:name>
+         <CHARSET:value>IBM857</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/IBM862">
+         <CHARSET:name>IBM862</CHARSET:name>
+         <CHARSET:value>IBM862</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/IBM864">
+         <CHARSET:name>IBM864</CHARSET:name>
+         <CHARSET:value>IBM864</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/IBM866">
+         <CHARSET:name>IBM866</CHARSET:name>
+         <CHARSET:value>IBM866</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-2022-CN">
+         <CHARSET:name>ISO-2022-CN</CHARSET:name>
+         <CHARSET:value>ISO-2022-CN</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-2022-JP">
+         <CHARSET:name>ISO-2022-JP</CHARSET:name>
+         <CHARSET:value>ISO-2022-JP</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-2022-KR">
+         <CHARSET:name>ISO-2022-KR</CHARSET:name>
+         <CHARSET:value>ISO-2022-KR</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-1">
+         <CHARSET:name>ISO-8859-1</CHARSET:name>
+         <CHARSET:value>ISO-8859-1</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-2">
+         <CHARSET:name>ISO-8859-2</CHARSET:name>
+         <CHARSET:value>ISO-8859-2</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-3">
+         <CHARSET:name>ISO-8859-3</CHARSET:name>
+         <CHARSET:value>ISO-8859-3</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-4">
+         <CHARSET:name>ISO-8859-4</CHARSET:name>
+         <CHARSET:value>ISO-8859-4</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-5">
+         <CHARSET:name>ISO-8859-5</CHARSET:name>
+         <CHARSET:value>ISO-8859-5</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-6">
+         <CHARSET:name>ISO-8859-6</CHARSET:name>
+         <CHARSET:value>ISO-8859-6</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-7">
+         <CHARSET:name>ISO-8859-7</CHARSET:name>
+         <CHARSET:value>ISO-8859-7</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-8">
+         <CHARSET:name>ISO-8859-8</CHARSET:name>
+         <CHARSET:value>ISO-8859-8</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-8-I">
+         <CHARSET:name>ISO-8859-8-I</CHARSET:name>
+         <CHARSET:value>ISO-8859-8-I</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-9">
+         <CHARSET:name>ISO-8859-9</CHARSET:name>
+         <CHARSET:value>ISO-8859-9</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-10">
+         <CHARSET:name>ISO-8859-10</CHARSET:name>
+         <CHARSET:value>ISO-8859-10</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-11">
+         <CHARSET:name>ISO-8859-11</CHARSET:name>
+         <CHARSET:value>ISO-8859-11</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-13">
+         <CHARSET:name>ISO-8859-13</CHARSET:name>
+         <CHARSET:value>ISO-8859-13</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-14">
+         <CHARSET:name>ISO-8859-14</CHARSET:name>
+         <CHARSET:value>ISO-8859-14</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-15">
+         <CHARSET:name>ISO-8859-15</CHARSET:name>
+         <CHARSET:value>ISO-8859-15</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-8859-16">
+         <CHARSET:name>ISO-8859-16</CHARSET:name>
+         <CHARSET:value>ISO-8859-16</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>	
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/ISO-IR-111">
+         <CHARSET:name>ISO-IR-111</CHARSET:name>
+         <CHARSET:value>ISO-IR-111</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/KOI8-R">
+         <CHARSET:name>KOI8-R</CHARSET:name>
+         <CHARSET:value>KOI8-R</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/KOI8-U">
+         <CHARSET:name>KOI8-U</CHARSET:name>
+         <CHARSET:value>KOI8-U</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/Shift_JIS">
+         <CHARSET:name>Shift_JIS</CHARSET:name>
+         <CHARSET:value>Shift_JIS</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/TIS-620">
+         <CHARSET:name>TIS-620</CHARSET:name>
+         <CHARSET:value>TIS-620</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/UTF-16BE">
+         <CHARSET:name>UTF-16BE</CHARSET:name>
+         <CHARSET:value>UTF-16BE</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/UTF-16LE">
+         <CHARSET:name>UTF-16LE</CHARSET:name>
+         <CHARSET:value>UTF-16LE</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/UTF-32BE">
+         <CHARSET:name>UTF-32BE</CHARSET:name>
+         <CHARSET:value>UTF-32BE</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/UTF-32LE">
+         <CHARSET:name>UTF-32LE</CHARSET:name>
+         <CHARSET:value>UTF-32LE</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/UTF-7">
+         <CHARSET:name>UTF-7</CHARSET:name>
+         <CHARSET:value>UTF-7</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/UTF-8">
+         <CHARSET:name>UTF-8</CHARSET:name>
+         <CHARSET:value>UTF-8</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/VISCII">
+         <CHARSET:name>VISCII</CHARSET:name>
+         <CHARSET:value>VISCII</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+	<RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/windows-874">
+         <CHARSET:name>windows-874</CHARSET:name>
+         <CHARSET:value>windows-874</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/windows-1250">
+         <CHARSET:name>windows-1250</CHARSET:name>
+         <CHARSET:value>windows-1250</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/windows-1251">
+         <CHARSET:name>windows-1251</CHARSET:name>
+         <CHARSET:value>windows-1251</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/windows-1252">
+         <CHARSET:name>windows-1252</CHARSET:name>
+         <CHARSET:value>windows-1252</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/windows-1253">
+         <CHARSET:name>windows-1253</CHARSET:name>
+         <CHARSET:value>windows-1253</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/windows-1254">
+         <CHARSET:name>windows-1254</CHARSET:name>
+         <CHARSET:value>windows-1254</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/windows-1255">
+         <CHARSET:name>windows-1255</CHARSET:name>
+         <CHARSET:value>windows-1255</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/windows-1256">
+         <CHARSET:name>windows-1256</CHARSET:name>
+         <CHARSET:value>windows-1256</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/windows-1257">
+         <CHARSET:name>windows-1257</CHARSET:name>
+         <CHARSET:value>windows-1257</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/windows-1258">
+         <CHARSET:name>windows-1258</CHARSET:name>
+         <CHARSET:value>windows-1258</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-euc-tw">
+         <CHARSET:name>x-euc-tw</CHARSET:name>
+         <CHARSET:value>x-euc-tw</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-gbk">
+         <CHARSET:name>x-gbk</CHARSET:name>
+         <CHARSET:value>x-gbk</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-johab">
+         <CHARSET:name>x-johab</CHARSET:name>
+         <CHARSET:value>x-johab</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-arabic">
+         <CHARSET:name>x-mac-arabic</CHARSET:name>
+         <CHARSET:value>x-mac-arabic</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-ce">
+         <CHARSET:name>x-mac-ce</CHARSET:name>
+         <CHARSET:value>x-mac-ce</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-croatian">
+         <CHARSET:name>x-mac-croatian</CHARSET:name>
+         <CHARSET:value>x-mac-croatian</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-cyrillic">
+         <CHARSET:name>x-mac-cyrillic</CHARSET:name>
+         <CHARSET:value>x-mac-cyrillic</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-devanagari">
+         <CHARSET:name>x-mac-devanagari</CHARSET:name>
+         <CHARSET:value>x-mac-devanagari</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-farsi">
+         <CHARSET:name>x-mac-farsi</CHARSET:name>
+         <CHARSET:value>x-mac-farsi</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-greek">
+         <CHARSET:name>x-mac-greek</CHARSET:name>
+         <CHARSET:value>x-mac-greek</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-gujarati">
+         <CHARSET:name>x-mac-gujarati</CHARSET:name>
+         <CHARSET:value>x-mac-gujarati</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-gurmukhi">
+         <CHARSET:name>x-mac-gurmukhi</CHARSET:name>
+         <CHARSET:value>x-mac-gurmukhi</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-hebrew">
+         <CHARSET:name>x-mac-hebrew</CHARSET:name>
+         <CHARSET:value>x-mac-hebrew</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-icelandic">
+         <CHARSET:name>x-mac-icelandic</CHARSET:name>
+         <CHARSET:value>x-mac-icelandic</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-roman">
+         <CHARSET:name>x-mac-roman</CHARSET:name>
+         <CHARSET:value>x-mac-roman</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-romanian">
+         <CHARSET:name>x-mac-romanian</CHARSET:name>
+         <CHARSET:value>x-mac-romanian</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-turkish">
+         <CHARSET:name>x-mac-turkish</CHARSET:name>
+         <CHARSET:value>x-mac-turkish</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-mac-ukrainian">
+         <CHARSET:name>x-mac-ukrainian</CHARSET:name>
+         <CHARSET:value>x-mac-ukrainian</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-viet-tcvn5712">
+         <CHARSET:name>x-viet-tcvn5712</CHARSET:name>
+         <CHARSET:value>x-viet-tcvn5712</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-viet-vps">
+         <CHARSET:name>x-viet-vps</CHARSET:name>
+         <CHARSET:value>x-viet-vps</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+    <RDF:li>
+       <RDF:Description RDF:about="http://www.phplangeditor-charset.com/x-windows-949">
+         <CHARSET:name>x-windows-949</CHARSET:name>
+         <CHARSET:value>x-windows-949</CHARSET:value>
+       </RDF:Description>
+    </RDF:li>
+  </RDF:Seq>
+</RDF:RDF>
