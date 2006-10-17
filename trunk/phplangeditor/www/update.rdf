@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+<RDF:Description about="urn:mozilla:extension:{77e8295d-7048-8367-1c67-378537c06d74}">
+  <em:updates>
+    <RDF:Seq>
+      <RDF:li resource="urn:mozilla:extension:{77e8295d-7048-8367-1c67-378537c06d74}:2.1"/>
+    </RDF:Seq>
+  </em:updates>
+  <em:version>2.1</em:version>
+  <em:updateLink>http://downloads.mozdev.org/phplangeditor/phplangeditor.xpi</em:updateLink>
+
+</RDF:Description>
+
+
+<RDF:Description about="urn:mozilla:extension:{77e8295d-7048-8367-1c67-378537c06d74}:2.1">
+   <em:version>2.1</em:version>
+   <em:targetApplication>
+     <Description>
+		<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+		<em:minVersion>1.5</em:minVersion>
+		<em:maxVersion>1.5.0.*</em:maxVersion>
+        <em:updateLink>http://downloads.mozdev.org/phplangeditor/phplangeditor.xpi</em:updateLink>
+     </Description>
+   </em:targetApplication>
+ </RDF:Description>
+
+</RDF:RDF>
