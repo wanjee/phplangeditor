@@ -1,14 +1,12 @@
-#summary One-sentence summary of this page.
+#summary How to translate phpLangEditor
 
-= Localization =
-
-From SVN
+=From SVN=
 
     * Grab the original translation files on the SVN : [http://phplangeditor.googlecode.com/svn/trunk/chrome/locale/en-US/ English Localization Files]
     * Translate phplangeditor.dtd and phplangeditor.properties files to your language
     * Send the translated files to me at pir _at_ cerdecam.be
 
-On Babelzilla
+=On Babelzilla=
 
     * Register on [http://www.babelzilla.org/ Babelzilla]
     * Register as a translator for phpLangEditor (extension id = 2427)
