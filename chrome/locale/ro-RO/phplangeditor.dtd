@@ -1,0 +1,56 @@
+<!ENTITY application.name "phpLangEditor">
+<!ENTITY application.version "2.3">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "Sir">
+<!ENTITY label.reference "Text referinta">
+<!ENTITY label.translation "Text traducere">
+<!ENTITY button.previous "Anterioara">
+<!ENTITY button.next "Urmatoarea">
+<!ENTITY menu.file "Fisier">
+<!ENTITY menu.file.acceskey "f">
+<!ENTITY menu.view "Vizualizare">
+<!ENTITY menu.view.acceskey "v">
+<!ENTITY menu.help "Ajutor">
+<!ENTITY menu.help.acceskey "h">
+<!ENTITY popup.openReference.label "Deschide fisier referinta">
+<!ENTITY popup.openReference.accesskey "O">
+<!ENTITY popup.openTranslation.label "Deschide fisier traducere">
+<!ENTITY popup.openTranslation.accesskey "r">
+<!ENTITY popup.save.label "Salveaza fisier traducere">
+<!ENTITY popup.save.accesskey "S">
+<!ENTITY popup.saveAs.label "Salveaza fisier traducere ca">
+<!ENTITY popup.saveAs.accesskey "a">
+<!ENTITY popup.selectPreviousItem.label "Alege obiectul anterior">
+<!ENTITY popup.selectPreviousItem.accesskey "p">
+<!ENTITY popup.selectNextItem.label "Alege obiectul urmator">
+<!ENTITY popup.selectNextItem.accesskey "n">
+<!ENTITY popup.exit.label "Iesire">
+<!ENTITY popup.exit.accesskey "x">
+<!ENTITY popup.viewAll.label "Vezi tot">
+<!ENTITY popup.viewAll.accesskey "a">
+<!ENTITY popup.viewUntranslated.label "Vezi netraduse">
+<!ENTITY popup.viewUntranslated.accesskey "u">
+<!ENTITY popup.about.label "Despre">
+<!ENTITY popup.about.accesskey "a">
+<!ENTITY toolbar.openReference.label "Deschide referinta">
+<!ENTITY toolbar.openTranslation.label "Deschide traducere">
+<!ENTITY toolbar.save.label "Salveaza traducerea">
+<!ENTITY toolbar.viewAll.label "Vezi tot">
+<!ENTITY toolbar.viewUntranslated.label "Vezi netraduse">
+<!ENTITY about.close.label "Inchide">
+<!ENTITY about.about.label "Despre">
+<!ENTITY about.version.label "versiune">
+<!ENTITY about.createdBy.label "Creata de">
+<!ENTITY about.homepage.label "Pagina oficiala">
+<!ENTITY about.help.label "Ajutor">
+<!ENTITY about.tips.label "Sfaturi">
+<!ENTITY about.help.help01 "- Apaasa pe &apos;Refereinta fisier&apos; pentru a alege traducere originala.">
+<!ENTITY about.help.help02 "- Daca doresti sa finalizezi o traducere existenta apasa pe &apos;Fisier traducere&apos; pentru a-l alege.">
+<!ENTITY about.help.help03 "- In panoul din stanta alege obiectul pe care il vei traduce.">
+<!ENTITY about.help.help04 "- Vei vedea tranducerea originala in panoul din dreapta-sus.">
+<!ENTITY about.help.help05 "- Scrie traducerea in panoul din dreapta-jos si valideaz-o prin apasare pe &apos;Urmatoarea&apos;.">
+<!ENTITY about.help.help06 "- Nu uita sa-ti salvezi munca, folosind &apos;Salveaza tranducerea&apos;.">
+<!ENTITY about.tips.tip01 "- Modificarea setului de caractere din &apos;Fisier referinta&apos; in timpul unei traduceri poate genera intrari duplicat in lista de obiecte.">
+<!ENTITY about.tips.tip02 "- Alege setul de caractere pentru traducere inaintea de deschiderea fisierului de traducere. Fisierul salvat va contine acest set de caractere.">
+<!ENTITY about.tips.tip03 "- Modificarea setului de caractere din &apos;Fisier tranducere&apos; in timpul unei traduceri ar putea inlocui unele traduceri prin cea prezenta in fisierul de traducere (daca exista).">
+<!ENTITY about.tips.tip04 "- &apos;Ctrl-enter&apos; este o scurtatura de la tastatura pentru alegerea urmatorului obiect.">
