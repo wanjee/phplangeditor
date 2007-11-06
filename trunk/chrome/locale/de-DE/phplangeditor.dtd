@@ -1,0 +1,56 @@
+<!ENTITY application.name "phpLangEditor">
+<!ENTITY application.version "2.3">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "Elemente">
+<!ENTITY label.reference "Referenztext">
+<!ENTITY label.translation "Übersetzung">
+<!ENTITY button.previous "Präzedenzfall">
+<!ENTITY button.next "Weiter">
+<!ENTITY menu.file "Datei">
+<!ENTITY menu.file.acceskey "D">
+<!ENTITY menu.view "Ansicht">
+<!ENTITY menu.view.acceskey "A">
+<!ENTITY menu.help "Hilfe">
+<!ENTITY menu.help.acceskey "H">
+<!ENTITY popup.openReference.label "Referenzdatei öffnen">
+<!ENTITY popup.openReference.accesskey "R">
+<!ENTITY popup.openTranslation.label "Übersetzungsdatei öffnen">
+<!ENTITY popup.openTranslation.accesskey "Ü">
+<!ENTITY popup.save.label "Übersetzung speichern">
+<!ENTITY popup.save.accesskey "s">
+<!ENTITY popup.saveAs.label "Übersetzung speichern unter">
+<!ENTITY popup.saveAs.accesskey "u">
+<!ENTITY popup.selectPreviousItem.label "Vorhergehende Element auswählen">
+<!ENTITY popup.selectPreviousItem.accesskey "V">
+<!ENTITY popup.selectNextItem.label "Nächstes Element auswählen">
+<!ENTITY popup.selectNextItem.accesskey "E">
+<!ENTITY popup.exit.label "Beenden">
+<!ENTITY popup.exit.accesskey "B">
+<!ENTITY popup.viewAll.label "Alle anzeigen">
+<!ENTITY popup.viewAll.accesskey "A">
+<!ENTITY popup.viewUntranslated.label "Nicht übersetzte Texte anzeigen">
+<!ENTITY popup.viewUntranslated.accesskey "N">
+<!ENTITY popup.about.label "Über">
+<!ENTITY popup.about.accesskey "Ü">
+<!ENTITY toolbar.openReference.label "Referenzdatei öffnen">
+<!ENTITY toolbar.openTranslation.label "Übersetzung">
+<!ENTITY toolbar.save.label "Übersetzung speichern">
+<!ENTITY toolbar.viewAll.label "Alle anzeigen">
+<!ENTITY toolbar.viewUntranslated.label "Nicht übersetzte Texte anzeigen">
+<!ENTITY about.close.label "Close">
+<!ENTITY about.about.label "Über">
+<!ENTITY about.version.label "Version">
+<!ENTITY about.createdBy.label "Created by">
+<!ENTITY about.homepage.label "Homepage">
+<!ENTITY about.help.label "Hilfe">
+<!ENTITY about.tips.label "Tipps">
+<!ENTITY about.help.help01 "- Klicken Sie auf &apos;Referenzdatei öffnen&apos; um die Originaldatei zu öffnen.">
+<!ENTITY about.help.help02 "- Klicken Sie auf &apos;Übersetzungsdatei öffnen&apos; wenn Sie beabsichtigen eine bestehende Übersetzung zu vervollständigen.">
+<!ENTITY about.help.help03 "- Wählen Sie in der linken Spalte das Element das Sie übersetzen möchten.">
+<!ENTITY about.help.help04 "- Der Originaltext wird im oberen rechten Feld angezeigt.">
+<!ENTITY about.help.help05 "- Schreiben Sie die Übersetzung in das untere rechte Feld und klicken Sie auf &apos;Weiter&apos; um den eingegebenen Text zu übernehmen.">
+<!ENTITY about.help.help06 "- Vergessen Sie nicht die Änderungen mit &apos;Übersetzung speichern&apos; zu speichern.">
+<!ENTITY about.tips.tip01 "- Wenn der Zeichensatz der Referenzdatei während der Übersetzung geändert wird, dann kann das dazu führen, dass doppelte Einträge in der Elementliste erscheinen.">
+<!ENTITY about.tips.tip02 "- Wählen Sie den Zeichensatz bevor Sie die Übersetzungsdatei öffnen. Beim Speichern der Datei wird der ausgewählte Zeichensatz verwendet.">
+<!ENTITY about.tips.tip03 "- Wenn der Zeichensatz der Übersetzungsdatei während der Übersetzung geändert wird, dann kann das dazu führen, dass zuvor Übersetzte Zeichenketten durch Zeichenketten aus der geladenen Datei ersetzt werden (wenn eine Datei geladen wurde).">
+<!ENTITY about.tips.tip04 "- &apos;Strg-Enter&apos; ist ein Tastaturkürzel für &apos;Nächstes Element auswählen&apos;.">

@@ -1,0 +1,56 @@
+<!ENTITY application.name "phpLangEditor">
+<!ENTITY application.version "2.3">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "文字列">
+<!ENTITY label.reference "参照テキスト">
+<!ENTITY label.translation "翻訳テキスト">
+<!ENTITY button.previous "前">
+<!ENTITY button.next "次">
+<!ENTITY menu.file "ファイル">
+<!ENTITY menu.file.acceskey "f">
+<!ENTITY menu.view "表示">
+<!ENTITY menu.view.acceskey "v">
+<!ENTITY menu.help "ヘルプ">
+<!ENTITY menu.help.acceskey "h">
+<!ENTITY popup.openReference.label "参照ファイルを開く">
+<!ENTITY popup.openReference.accesskey "O">
+<!ENTITY popup.openTranslation.label "翻訳ファイルを開く">
+<!ENTITY popup.openTranslation.accesskey "r">
+<!ENTITY popup.save.label "翻訳ファイルを保存">
+<!ENTITY popup.save.accesskey "S">
+<!ENTITY popup.saveAs.label "翻訳ファイルに名前を付けて保存">
+<!ENTITY popup.saveAs.accesskey "a">
+<!ENTITY popup.selectPreviousItem.label "前の項目を選択">
+<!ENTITY popup.selectPreviousItem.accesskey "p">
+<!ENTITY popup.selectNextItem.label "次の項目を選択">
+<!ENTITY popup.selectNextItem.accesskey "n">
+<!ENTITY popup.exit.label "終了">
+<!ENTITY popup.exit.accesskey "x">
+<!ENTITY popup.viewAll.label "すべて表示">
+<!ENTITY popup.viewAll.accesskey "a">
+<!ENTITY popup.viewUntranslated.label "未翻訳を表示">
+<!ENTITY popup.viewUntranslated.accesskey "u">
+<!ENTITY popup.about.label "About">
+<!ENTITY popup.about.accesskey "a">
+<!ENTITY toolbar.openReference.label "参照を開く">
+<!ENTITY toolbar.openTranslation.label "翻訳を開く">
+<!ENTITY toolbar.save.label "翻訳を保存">
+<!ENTITY toolbar.viewAll.label "すべて表示">
+<!ENTITY toolbar.viewUntranslated.label "未翻訳を表示">
+<!ENTITY about.close.label "閉じる">
+<!ENTITY about.about.label "About">
+<!ENTITY about.version.label "バージョン">
+<!ENTITY about.createdBy.label "製作者">
+<!ENTITY about.homepage.label "ホームページ">
+<!ENTITY about.help.label "ヘルプ">
+<!ENTITY about.tips.label "ヒント">
+<!ENTITY about.help.help01 "- 翻訳元を選択するには「参照ファイル」をクリックします。">
+<!ENTITY about.help.help02 "- 既存の翻訳の完成を目指す場合は「翻訳ファイル」をクリックしてそれを選択します。">
+<!ENTITY about.help.help03 "- 左の枠で翻訳する項目を選択します。">
+<!ENTITY about.help.help04 "- 右上の枠で翻訳元を見ます。">
+<!ENTITY about.help.help05 "- 右下の枠で翻訳を書いて「次」をクリックして有効なものとします。">
+<!ENTITY about.help.help06 "- 「翻訳を保存」で成果を保存するのを忘れてはいけません。">
+<!ENTITY about.tips.tip01 "- 翻訳中に「参照ファイル」の文字エンコーディングを変更すると項目リストに重複項が生成されることがあります。">
+<!ENTITY about.tips.tip02 "- 翻訳ファイルを開く前に翻訳文字エンコーディングを選択します。保存ファイルはこの文字エンコーディングを利用して保存されます。">
+<!ENTITY about.tips.tip03 "- 翻訳中に「翻訳ファイル」の文字エンコーディングを変更し、読み込んだ翻訳ファイルが一つの場合に一部の翻訳が差し替わることがあります。">
+<!ENTITY about.tips.tip04 "- &apos;Ctrl-enter&apos; は次のアイテムを選択するキーボードショートカットです。">
