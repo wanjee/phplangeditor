@@ -1,0 +1,56 @@
+<!ENTITY application.name "phpLangEditor">
+<!ENTITY application.version "2.2">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "String">
+<!ENTITY label.reference "Tekst oryginalny">
+<!ENTITY label.translation "Tłumaczenie">
+<!ENTITY button.previous "Poprzedni">
+<!ENTITY button.next "Następny">
+<!ENTITY menu.file "Plik">
+<!ENTITY menu.file.acceskey "P">
+<!ENTITY menu.view "Widok">
+<!ENTITY menu.view.acceskey "W">
+<!ENTITY menu.help "Pomoc">
+<!ENTITY menu.help.acceskey "M">
+<!ENTITY popup.openReference.label "Otwórz plik odniesienia">
+<!ENTITY popup.openReference.accesskey "O">
+<!ENTITY popup.openTranslation.label "Otwórz plik tłumaczenia">
+<!ENTITY popup.openTranslation.accesskey "T">
+<!ENTITY popup.save.label "Zapisz tłumaczenie">
+<!ENTITY popup.save.accesskey "Z">
+<!ENTITY popup.saveAs.label "Zapisz tłumaczenie jako...">
+<!ENTITY popup.saveAs.accesskey "S">
+<!ENTITY popup.selectPreviousItem.label "Zaznacz poprzedni element">
+<!ENTITY popup.selectPreviousItem.accesskey "P">
+<!ENTITY popup.selectNextItem.label "Zaznacz następny element">
+<!ENTITY popup.selectNextItem.accesskey "N">
+<!ENTITY popup.exit.label "Zakończ">
+<!ENTITY popup.exit.accesskey "K">
+<!ENTITY popup.viewAll.label "Wyświetl wszystko">
+<!ENTITY popup.viewAll.accesskey "Z">
+<!ENTITY popup.viewUntranslated.label "Wyświetl nieprzetłumaczone">
+<!ENTITY popup.viewUntranslated.accesskey "N">
+<!ENTITY popup.about.label "Informacje">
+<!ENTITY popup.about.accesskey "I">
+<!ENTITY toolbar.openReference.label "Otwórz odniesienie">
+<!ENTITY toolbar.openTranslation.label "Otwórz tłumaczenie">
+<!ENTITY toolbar.save.label "Zapisz tłumaczenie">
+<!ENTITY toolbar.viewAll.label "Wyświetl wszystko">
+<!ENTITY toolbar.viewUntranslated.label "Wyświetl nieprzetłumaczone">
+<!ENTITY about.close.label "Zamknij">
+<!ENTITY about.about.label "Informacje o">
+<!ENTITY about.version.label "wersja">
+<!ENTITY about.createdBy.label "Autor">
+<!ENTITY about.homepage.label "Strona domowa">
+<!ENTITY about.help.label "Pomoc">
+<!ENTITY about.tips.label "Podpowiedzi">
+<!ENTITY about.help.help01 "- Aby otworzyć wersję oryginalną proszę nacisnąć przycisk &quot;Otwórz odniesienie&quot;.">
+<!ENTITY about.help.help02 "- Aby kontynuować istniejące tłumaczenie proszę nacisnąć przycisk &quot;Otwórz tłumaczenie&quot;.">
+<!ENTITY about.help.help03 "- W lewym panelu proszę wybrać element do tłumaczenia.">
+<!ENTITY about.help.help04 "- Oryginał tekstu będzie widoczny w prawym górnym panelu.">
+<!ENTITY about.help.help05 "- Tłumaczenie proszę wpisać w prawym dolnym panelu i zatwierdzić je naciskając przycisk &quot;Następny&quot;.">
+<!ENTITY about.help.help06 "- Proszę nie zapominać o zapisaniu pracy naciskając przycisk &quot;Zapisz tłumaczenie&quot;.">
+<!ENTITY about.tips.tip01 "- Zmiana kodowania pliku odniesienia w trakcie tłumaczenia może spowodować wygenerowanie duplikatów tłumaczonych elementów.">
+<!ENTITY about.tips.tip02 "- Kodowanie należy określić przed przystąpieniem do tłumaczenia. Plik tłumaczenia zostanie zapisany w wybranym kodowaniu.">
+<!ENTITY about.tips.tip03 "- Zmiana kodowania tłumaczenia w trakcie pracy może spowodować podczas otwierania pliku tłumaczenia zamianę niektórych przetłumaczonych elementów na obecne.">
+<!ENTITY about.tips.tip04 "- [Ctrl-Enter] jest skrótem klawiaturowym do wybrania następnego elementu.">

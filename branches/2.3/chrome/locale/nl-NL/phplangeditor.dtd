@@ -1,0 +1,56 @@
+<!ENTITY application.name "phpLangEditor">
+<!ENTITY application.version "2.3">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "String">
+<!ENTITY label.reference "Referentietekst">
+<!ENTITY label.translation "Vertalingstekst">
+<!ENTITY button.previous "Vorige">
+<!ENTITY button.next "Volgende">
+<!ENTITY menu.file "Bestand">
+<!ENTITY menu.file.acceskey "B">
+<!ENTITY menu.view "Bekijken">
+<!ENTITY menu.view.acceskey "j">
+<!ENTITY menu.help "Help">
+<!ENTITY menu.help.acceskey "H">
+<!ENTITY popup.openReference.label "Referentiebestand openen">
+<!ENTITY popup.openReference.accesskey "O">
+<!ENTITY popup.openTranslation.label "Vertalingsbestand openen">
+<!ENTITY popup.openTranslation.accesskey "r">
+<!ENTITY popup.save.label "Vertalingsbestand opslaan">
+<!ENTITY popup.save.accesskey "s">
+<!ENTITY popup.saveAs.label "Vertalingsbestand opslaan als">
+<!ENTITY popup.saveAs.accesskey "a">
+<!ENTITY popup.selectPreviousItem.label "Vorig onderdeel selecteren">
+<!ENTITY popup.selectPreviousItem.accesskey "g">
+<!ENTITY popup.selectNextItem.label "Volgend onderdeel selecteren">
+<!ENTITY popup.selectNextItem.accesskey "n">
+<!ENTITY popup.exit.label "Afsluiten">
+<!ENTITY popup.exit.accesskey "f">
+<!ENTITY popup.viewAll.label "Alles bekijken">
+<!ENTITY popup.viewAll.accesskey "A">
+<!ENTITY popup.viewUntranslated.label "Onvertaalde delen bekijken">
+<!ENTITY popup.viewUntranslated.accesskey "t">
+<!ENTITY popup.about.label "Over">
+<!ENTITY popup.about.accesskey "e">
+<!ENTITY toolbar.openReference.label "Referentie openen">
+<!ENTITY toolbar.openTranslation.label "Vertaling openen">
+<!ENTITY toolbar.save.label "Vertaling opslaan">
+<!ENTITY toolbar.viewAll.label "Alles bekijken">
+<!ENTITY toolbar.viewUntranslated.label "Onvertaalde delen bekijken">
+<!ENTITY about.close.label "Sluiten">
+<!ENTITY about.about.label "Over">
+<!ENTITY about.version.label "versie">
+<!ENTITY about.createdBy.label "Gemaakt door">
+<!ENTITY about.homepage.label "Homepage">
+<!ENTITY about.help.label "Help">
+<!ENTITY about.tips.label "Tips">
+<!ENTITY about.help.help01 "- Klik op &apos;Referentiebestand&apos; om de oorspronkelijke vertaling te selecteren">
+<!ENTITY about.help.help02 "- Als u een bestaande vertaling wilt afronden, klik dan op &apos;Vertalingsbestand&apos; om dit te selecteren.">
+<!ENTITY about.help.help03 "- Selecteer in het linkerscherm het onderdeel dat u wilt vertalen.">
+<!ENTITY about.help.help04 "- U ziet de oorspronkelijke vertaling in het scherm rechtsboven.">
+<!ENTITY about.help.help05 "- Schrijf uw vertaling in het scherm rechtsonder en valideer deze door op &apos;Volgende&apos; te klikken.">
+<!ENTITY about.help.help06 "- Vergeet niet uw werk op te slaan door op &apos;Vertaling opslaan&apos; te drukken.">
+<!ENTITY about.tips.tip01 "- Het aanpassen van de karakterset van het &apos;Referentiebestand&apos; tijdens een vertaling kan dubbele vermeldingen veroorzaken in de lijst met items.">
+<!ENTITY about.tips.tip02 "- Selecteer de karakterset van de vertaling voordat u het vertalingsbestand opent. Het bestand zal worden opgeslagen met deze karakterset.">
+<!ENTITY about.tips.tip03 "- Het aan passen van de karakterset van het &apos;Vertalingsbestand&apos; tijdens een vertaling kan leiden tot vervanging van sommige vertalingen door de vertalingen in het geladen vertalingsbestand (indien aanwezig).">
+<!ENTITY about.tips.tip04 "- &apos;CTRL-Enter&apos; is de sneltoets om het volgende onderdeel te selecteren.">

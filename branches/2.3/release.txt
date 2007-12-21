@@ -1,0 +1,18 @@
+Release HowTo
+
+- help.html (check version and text)
+- about.html (check version and text)
+- install.js and install.rdf (check version...)
+- update update file
+- clean cvs export
+
+- creation of .jar file , compression and delete of content dir into phplangeditor.jar
+- creation of xpi file  , compression of chrome dir, install.js and install.rdf in phplangeditor.xpi
+
+- test xpi
+- archive previous version in donloads dir
+- copy new phplangeditor.xpi into downloads dir
+- commit xpi
+
+- make a new screenshot for mozdev homepage
+- [update claroline documentation]
