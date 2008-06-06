@@ -74,8 +74,6 @@
         <em:creator>Fragile</em:creator>
         <em:translator>www.babelzilla.org</em:translator>        
         <em:homepageURL>http://code.google.com/p/phplangeditor/</em:homepageURL>
-		<em:updateURL/>
-		
 		
 		<!-- Target Application - Firefox -->
 		<em:targetApplication>
@@ -86,5 +84,5 @@
 			</Description>
 		</em:targetApplication>
 		
-    <em:targetPlatform/><em:optionsURL/><em:aboutURL/><em:iconURL/></Description>
+    </Description>
 </RDF>
