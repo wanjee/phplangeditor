@@ -2,6 +2,14 @@
 
 =Changelog=
 
+==2.4==
+
+June 6, 2008
+
+    * Compatible with Firefox 3.0.*
+ * Spellchecker enabled in translation box 
+ * Small change on how extension description is localized
+
 ==2.3==
 
 July 2, 2007
@@ -85,4 +93,3 @@ April 5, 2005
 March 3, 2005
 
     * Initial "release"
-
