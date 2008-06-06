@@ -79,7 +79,7 @@
 						</menupopup>
 					</menulist>
 				</hbox>
-				<textbox id="translatedString-box" multiline="true" flex="1" oninput="saveCurrentItem()"/>
+				<textbox id="translatedString-box" multiline="true" flex="1" spellcheck="true" oninput="saveCurrentItem()"/>
 	
 				<hbox>
 					<spacer flex="1" />
