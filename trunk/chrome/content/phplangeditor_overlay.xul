@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?xml-stylesheet href="chrome://phplangeditor/content/overlay.css" type="text/css"?>
+
 <overlay id="phplangeditor"
 		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
@@ -8,7 +10,18 @@
 			label="phpLangEditor" 
 			oncommand="window.openDialog('chrome://phplangeditor/content/phplangeditor.xul','phplangeditor','chrome,centerscreen,resizable=yes,dialog=no').focus()" 
 			class="menuitem-iconic"
-			insertbefore="prefSep"/>
+			insertafter="devToolsSeparator 
+			/>
 	</menupopup>
 
+  <toolbarpalette  id="BrowserToolbarPalette">
+    <toolbarbutton id="phplangeditor-button"
+            label="phpLangEditor"
+            oncommand="window.openDialog('chrome://phplangeditor/content/phplangeditor.xul','phplangeditor','chrome,centerscreen,resizable=yes,dialog=no').focus()"
+            onclick="window.openDialog('chrome://phplangeditor/content/phplangeditor.xul','phplangeditor','chrome,centerscreen,resizable=yes,dialog=no').focus()"
+            class="toolbarbutton-1 chromeclass-toolbar-additional" 
+            tooltiptext="phpLangEditor"
+            />
+
+  </toolbarpalette>
 </overlay>
