@@ -1,4 +1,3 @@
-
 overlay	chrome://browser/content/browser.xul	chrome://phplangeditor/content/phplangeditor_overlay.xul
 
 content	phplangeditor	jar:chrome/phplangeditor.jar!/content/
@@ -17,3 +16,6 @@ locale	phplangeditor	pl-PL	jar:chrome/phplangeditor.jar!/locale/pl-PL/
 locale	phplangeditor	pt-BR	jar:chrome/phplangeditor.jar!/locale/pt-BR/
 locale	phplangeditor	ro-RO	jar:chrome/phplangeditor.jar!/locale/ro-RO/
 #locale	phplangeditor	zh-TW	jar:chrome/phplangeditor.jar!/locale/zh-TW/
+
+skin phplangeditor classic/1.0  jar:chrome/phplangeditor.jar!/skin/
+style chrome://global/content/customizeToolbar.xul chrome://phplangeditor/skin/overlay.css
