@@ -71,7 +71,7 @@
 		<em:name>phplangeditor</em:name>
 		<em:version>2.4</em:version>
 		<em:description>PHP language files editor</em:description>
-        <em:creator>Fragile</em:creator>
+        <em:creator>Sébastien Piraux</em:creator>
         <em:translator>www.babelzilla.org</em:translator>        
         <em:homepageURL>http://code.google.com/p/phplangeditor/</em:homepageURL>
 		
@@ -79,10 +79,10 @@
 		<em:targetApplication>
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-				<em:minVersion>1.5</em:minVersion>
+				<em:minVersion>2.0</em:minVersion>
 				<em:maxVersion>3.0.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
-		
+		<em:iconURL>chrome://phplangeditor/content/img/logo32.png</em:iconURL>
     </Description>
 </RDF>
