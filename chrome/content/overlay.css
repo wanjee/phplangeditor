@@ -1,0 +1,11 @@
+#phplangeditor-button {
+  list-style-image    : url("chrome://phplangeditor/content/img/logo24.png");
+}
+
+toolbar[iconsize="small"] #phplangeditor-button {
+  list-style-image    : url("chrome://phplangeditor/content/img/logo.png");
+}
+
+#phplangeditorOpen{
+  list-style-image    : url("chrome://phplangeditor/content/img/logo.png");
+}
