@@ -1,5 +1,5 @@
 <!ENTITY application.name "phpLangEditor">
-<!ENTITY application.version "2.4">
+<!ENTITY application.version "2.5">
 <!ENTITY application.author "Fragile">
 <!ENTITY treecol.string "String">
 <!ENTITY label.reference "Texto de referência">
