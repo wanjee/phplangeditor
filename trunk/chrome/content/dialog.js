@@ -1,10 +1,20 @@
-﻿//-- FILEPICKER ----------------------
+//-- FILEPICKER ----------------------
 // used for filter of open/save file dialogs
 
-var phpFilterExt = "*.php;*.php2;*.php3;*.php4;*.php5;*.phpx;*.phtml;*.inc;*.phps";
-var phpFilterLabel = "PHP files (" + phpFilterExt + ")";
-
+var phpFilterExt = "*.php;*.php4;*.php5;*.phpx;*.phtml;*.inc;*.phps";
 var iniFilterExt = "*.ini";
+
+// depending on config add .lang ext to correct file format
+if( typeOfLangExt == 'ini' )
+{
+    iniFilterExt += ";*.lang";
+}
+else
+{
+    phpFilterExt += ";*.lang";
+}
+
+var phpFilterLabel = "PHP files (" + phpFilterExt + ")";
 var iniFilterLabel = "INI files (" + iniFilterExt + ")";
 
 //-- DIALOGS ----------------------

@@ -69,7 +69,7 @@
         
 		<!-- Front End MetaData -->
 		<em:name>phplangeditor</em:name>
-		<em:version>2.4</em:version>
+		<em:version>2.5</em:version>
 		<em:description>PHP language files editor</em:description>
         <em:creator>Sébastien Piraux</em:creator>
         <em:translator>www.babelzilla.org</em:translator>        
@@ -83,6 +83,6 @@
 				<em:maxVersion>3.0.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
-		<em:iconURL>chrome://phplangeditor/content/img/logo32.png</em:iconURL>
+		<em:iconURL>chrome://phplangeditor/skin/icons/logo32.png</em:iconURL>
     </Description>
 </RDF>
