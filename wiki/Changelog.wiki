@@ -2,6 +2,13 @@
 
 =Changelog=
 
+==2.5b==
+
+July 14, 2008
+
+ * Add support of '.lang' files
+ * Add preference ('phplangeditor.file.typeOfLangExt') to choose which file type should be used for '.lang' files
+
 ==2.4==
 
 June 6, 2008
