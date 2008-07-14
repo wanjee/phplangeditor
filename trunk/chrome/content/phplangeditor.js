@@ -33,7 +33,6 @@ var currentItem = '';
 var collection = null;
 
 //-- FILES ----------------------
-var typeOfLangExt = "php";
 // path of the source
 var sourceFilePath = null;
 // name of the source 
@@ -58,6 +57,21 @@ var dontShowAgain = false;
 var defaultCharset = 'UTF-8';
 var sourceCharsetString;
 var translationCharsetString;
+
+//-- PREFERENCES ------------------
+var prefs = Components.classes["@mozilla.org/preferences-service;1"].
+               getService(Components.interfaces.nsIPrefBranch);
+
+var typeOfLangExt = "php";
+// change type of lang files if required
+if( prefs.getPrefType("phplangeditor.file.typeOfLangExt") == prefs.PREF_STRING )
+{
+    var typeOfLangExtTmp = prefs.getCharPref("phplangeditor.file.typeOfLangExt");
+    if( typeOfLangExtTmp == 'php' || typeOfLangExtTmp == 'ini' )
+    {
+        typeOfLangExt = typeOfLangExtTmp;
+    }
+}
 
 /*********************************************************
 						STARTUP
@@ -88,20 +102,6 @@ function startup()
 	
 	sourceCharsetListPopup		= document.getElementById('sourceCharsetListPopup');
 	translationCharsetListPopup	= document.getElementById('translationCharsetListPopup');
-
-	//--------
-	var prefs = Components.classes["@mozilla.org/preferences-service;1"].
-	               getService(Components.interfaces.nsIPrefBranch);
-	
-    // change type of lang files if required
-	if( prefs.getPrefType("phplangeditor.file.typeOfLangExt") == prefs.PREF_STRING )
-	{
-        var typeOfLangExtTmp = prefs.getCharPref("phplangeditor.file.typeOfLangExt");
-        if( typeOfLangExtTmp == 'php' || typeOfLangExtTmp == 'ini' )
-        {
-            typeOfLangExt = typeOfLangExtTmp;
-        }
-	}
 
 	//-- set default charset
 	sourceCharsetString = defaultCharset;
