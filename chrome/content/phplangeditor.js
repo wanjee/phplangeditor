@@ -1,4 +1,4 @@
-﻿// global vars
+// global vars
 
 //-- INTERFACE ----------------------
 //-- descriptions
@@ -33,6 +33,7 @@ var currentItem = '';
 var collection = null;
 
 //-- FILES ----------------------
+var typeOfLangExt = "php";
 // path of the source
 var sourceFilePath = null;
 // name of the source 
@@ -89,7 +90,19 @@ function startup()
 	translationCharsetListPopup	= document.getElementById('translationCharsetListPopup');
 
 	//--------
+	var prefs = Components.classes["@mozilla.org/preferences-service;1"].
+	               getService(Components.interfaces.nsIPrefBranch);
 	
+    // change type of lang files if required
+	if( prefs.getPrefType("phplangeditor.file.typeOfLangExt") == prefs.PREF_STRING )
+	{
+        var typeOfLangExtTmp = prefs.getCharPref("phplangeditor.file.typeOfLangExt");
+        if( typeOfLangExtTmp == 'php' || typeOfLangExtTmp == 'ini' )
+        {
+            typeOfLangExt = typeOfLangExtTmp;
+        }
+	}
+
 	//-- set default charset
 	sourceCharsetString = defaultCharset;
 	translationCharsetString = defaultCharset;
@@ -425,7 +438,7 @@ function saveFile()
 	cos.init( fos, translationCharsetString, 0, 0x0000 );
 
 	// get output depending on file type
-	if( getFileExtension(saveFilePath) == 'ini' )
+	if( getFileFormat(saveFilePath) == 'ini' )
 	{
 		var output = getIniStream();
 	}
@@ -475,16 +488,26 @@ function getIniStream()
 	return output;
 }
 
-function getFileExtension(filename)
+function getFileFormat(filename)
 {
 	var lastPoint = filename.lastIndexOf(".");
+	var extension = "";
 	
 	if ( lastPoint == -1 || lastPoint == filename.length - 1)
 	{
-		return "";
+		extension =  "";
 	}
 	else
 	{
-		return filename.substring(lastPoint+1,filename.length).toLowerCase();
+		extension = filename.substring(lastPoint+1,filename.length).toLowerCase();
+	}
+
+	if( extension == 'lang' )
+	{
+	   return typeOfLangExt; 
+	}
+	else
+	{
+	   return extension;
 	}
 }

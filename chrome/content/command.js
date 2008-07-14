@@ -1,4 +1,4 @@
-﻿/*
+/*
 function useCurrent(){}
 function setSourceCharset(){}
 function setTranslationCharset(){}
@@ -294,7 +294,7 @@ function exOpenSourceFile()
 {
 	var data = loadFile(sourceFilePath, sourceCharsetString);
 	
-	if( getFileExtension(sourceFilePath) == 'ini' )
+	if( getFileFormat(sourceFilePath) == 'ini' )
 	{
 		var isParsingOk = parseIni(data, 'source');
 	}
