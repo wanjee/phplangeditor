@@ -338,7 +338,7 @@ function exOpenTranslationFile()
 {
 	var data = loadFile(translationFilePath, translationCharsetString);
 	
-	if( getFileExtension(translationFilePath) == 'ini' )
+	if( getFileFormat(translationFilePath) == 'ini' )
 	{
 		var isParsingOk = parseIni(data, 'translation');
 	}
