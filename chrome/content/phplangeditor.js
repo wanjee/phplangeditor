@@ -488,19 +488,33 @@ function getIniStream()
 	return output;
 }
 
+/**
+ * Get extension from a filename
+ */
+function getFileExtension(filename)
+{
+    var lastPoint = filename.lastIndexOf(".");
+    var extension = "";
+    
+    if ( lastPoint == -1 || lastPoint == filename.length - 1)
+    {
+        extension =  "";
+    }
+    else
+    {
+        extension = filename.substring(lastPoint+1,filename.length).toLowerCase();
+    }
+    
+    return extension;
+}
+
+/**
+ * Get format from a filename 
+ * it depends on extension but also of configuration if extension is 'lang'
+ */
 function getFileFormat(filename)
 {
-	var lastPoint = filename.lastIndexOf(".");
-	var extension = "";
-	
-	if ( lastPoint == -1 || lastPoint == filename.length - 1)
-	{
-		extension =  "";
-	}
-	else
-	{
-		extension = filename.substring(lastPoint+1,filename.length).toLowerCase();
-	}
+	var extension = getFileExtension(filename);
 
 	if( extension == 'lang' )
 	{
