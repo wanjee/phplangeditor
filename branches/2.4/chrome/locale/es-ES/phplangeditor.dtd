@@ -1,0 +1,56 @@
+<!ENTITY application.name "phpLangEditor">
+<!ENTITY application.version "2.5">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "Cadena">
+<!ENTITY label.reference "Texto de referencia">
+<!ENTITY label.translation "Texto de traducción">
+<!ENTITY button.previous "Anterior">
+<!ENTITY button.next "Siguiente">
+<!ENTITY menu.file "Archivo">
+<!ENTITY menu.file.acceskey "A">
+<!ENTITY menu.view "Ver">
+<!ENTITY menu.view.acceskey "V">
+<!ENTITY menu.help "Ayuda">
+<!ENTITY menu.help.acceskey "U">
+<!ENTITY popup.openReference.label "Abrir archivo de referencia">
+<!ENTITY popup.openReference.accesskey "A">
+<!ENTITY popup.openTranslation.label "Abrir archivo de traducción">
+<!ENTITY popup.openTranslation.accesskey "T">
+<!ENTITY popup.save.label "Guardar el archivo de traducción">
+<!ENTITY popup.save.accesskey "G">
+<!ENTITY popup.saveAs.label "Guardar archivo de traducción como">
+<!ENTITY popup.saveAs.accesskey "C">
+<!ENTITY popup.selectPreviousItem.label "Seleccionar el elemento anterior">
+<!ENTITY popup.selectPreviousItem.accesskey "e">
+<!ENTITY popup.selectNextItem.label "Seleccionar el elemento siguiente">
+<!ENTITY popup.selectNextItem.accesskey "m">
+<!ENTITY popup.exit.label "Salir">
+<!ENTITY popup.exit.accesskey "S">
+<!ENTITY popup.viewAll.label "Ver todo">
+<!ENTITY popup.viewAll.accesskey "t">
+<!ENTITY popup.viewUntranslated.label "Ver sólo las traducciones pendientes">
+<!ENTITY popup.viewUntranslated.accesskey "s">
+<!ENTITY popup.about.label "Acerca de">
+<!ENTITY popup.about.accesskey "A">
+<!ENTITY toolbar.openReference.label "Abrir referencia">
+<!ENTITY toolbar.openTranslation.label "Abrir traducción">
+<!ENTITY toolbar.save.label "Guardar la traducción">
+<!ENTITY toolbar.viewAll.label "Ver todo">
+<!ENTITY toolbar.viewUntranslated.label "Ver sólo las traducciones pendientes">
+<!ENTITY about.close.label "Cerrar">
+<!ENTITY about.about.label "Acerca de">
+<!ENTITY about.version.label "versión">
+<!ENTITY about.createdBy.label "Creada por">
+<!ENTITY about.homepage.label "Página principal">
+<!ENTITY about.help.label "Ayuda">
+<!ENTITY about.tips.label "Consejos">
+<!ENTITY about.help.help01 "- Pulse en &apos;Archivo de referencia&apos; para elegir la traducción original.">
+<!ENTITY about.help.help02 "- Si quiere completar una traducción existente, pulse en &apos;Archivo de traducción&apos; para seleccionarlo.">
+<!ENTITY about.help.help03 "- En el panel de la izquierda, seleccione el elemento a traducir.">
+<!ENTITY about.help.help04 "- Podrá ver el original que está traduciendo en el panel superior.">
+<!ENTITY about.help.help05 "- Escriba la traducción dentro del panel inferior de la derecha y confírmelo pulsando en &apos;Siguiente&apos;.">
+<!ENTITY about.help.help06 "- No olvide guardar su trabajo usando &apos;Guardar la traducción&apos;.">
+<!ENTITY about.tips.tip01 "- Modificar el juego de caracteres del &apos;Archivo de referencia&apos; durante la traducción puede generar entradas duplicadas en la lista de elementos.">
+<!ENTITY about.tips.tip02 "- Elija el juego de caracteres para la traducción antes de abrir el archivo de traducción. Al guardarlo utilizará dicho juego de caracteres.">
+<!ENTITY about.tips.tip03 "- Modificar el juego de caracteres del &apos;Archivo de traducción&apos; durante la traducción podría reemplazar algunas de las entradas ya traducidas por las existente en el archivo cargado (si las hubiera).">
+<!ENTITY about.tips.tip04 "- &apos;Ctrl-enter&apos; es la combinación de teclas para elegir el elemento siguiente.">

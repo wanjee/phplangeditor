@@ -1,0 +1,56 @@
+<!ENTITY application.name "phpLangEditor">
+<!ENTITY application.version "2.5">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "Streng">
+<!ENTITY label.reference "Referencetekst">
+<!ENTITY label.translation "Oversat tekst">
+<!ENTITY button.previous "Foregående">
+<!ENTITY button.next "Næste">
+<!ENTITY menu.file "Fil">
+<!ENTITY menu.file.acceskey "f">
+<!ENTITY menu.view "Vis">
+<!ENTITY menu.view.acceskey "v">
+<!ENTITY menu.help "Hjælp">
+<!ENTITY menu.help.acceskey "h">
+<!ENTITY popup.openReference.label "Åbn referencefil">
+<!ENTITY popup.openReference.accesskey "Å">
+<!ENTITY popup.openTranslation.label "Åbn oversættelsesfil">
+<!ENTITY popup.openTranslation.accesskey "r">
+<!ENTITY popup.save.label "Gem oversættelsesfil">
+<!ENTITY popup.save.accesskey "G">
+<!ENTITY popup.saveAs.label "Gem oversættelsesfil som">
+<!ENTITY popup.saveAs.accesskey "s">
+<!ENTITY popup.selectPreviousItem.label "Vælg foregående element">
+<!ENTITY popup.selectPreviousItem.accesskey "o">
+<!ENTITY popup.selectNextItem.label "Vælg næste element">
+<!ENTITY popup.selectNextItem.accesskey "n">
+<!ENTITY popup.exit.label "Luk">
+<!ENTITY popup.exit.accesskey "l">
+<!ENTITY popup.viewAll.label "Vis alle">
+<!ENTITY popup.viewAll.accesskey "a">
+<!ENTITY popup.viewUntranslated.label "Vis ikke-oversatte">
+<!ENTITY popup.viewUntranslated.accesskey "i">
+<!ENTITY popup.about.label "Om">
+<!ENTITY popup.about.accesskey "m">
+<!ENTITY toolbar.openReference.label "Åbn reference">
+<!ENTITY toolbar.openTranslation.label "Åbn oversættelse">
+<!ENTITY toolbar.save.label "Gem oversættelse">
+<!ENTITY toolbar.viewAll.label "Vis alle">
+<!ENTITY toolbar.viewUntranslated.label "Vis ikke-oversatte">
+<!ENTITY about.close.label "Luk">
+<!ENTITY about.about.label "Om">
+<!ENTITY about.version.label "version">
+<!ENTITY about.createdBy.label "Skabt af">
+<!ENTITY about.homepage.label "Hjemmeside">
+<!ENTITY about.help.label "Hjælp">
+<!ENTITY about.tips.label "Tips">
+<!ENTITY about.help.help01 "- Klik på &apos;Referencefil&apos; for at vælge original oversættelse.">
+<!ENTITY about.help.help02 "- Hvis du vil færdiggøre en eksisterende oversættelse klik på &apos;Oversættelsesfil&apos; for at vælge den.">
+<!ENTITY about.help.help03 "- I venstre panel vælges element som du vil oversætte.">
+<!ENTITY about.help.help04 "- Du kan se den originale tekst i øverste højre panel.">
+<!ENTITY about.help.help05 "- Skriv din oversættelse i nedre højre panel og validér den ved at klikke &apos;Næste&apos;.">
+<!ENTITY about.help.help06 "- Glem ikke at gemme dit arbejde med &apos;Gem oversættelse&apos;.">
+<!ENTITY about.tips.tip01 "- Rettelse af tegnsæt i &apos;Referencefil&apos; under en oversættelse kan generere duplikerede elementer i elementlisten.">
+<!ENTITY about.tips.tip02 "- Vælg oversættelses-tegnsæt før åbning af oversættelsesfilen. Gemt fil vil blive gemt med dette tegnsæt.">
+<!ENTITY about.tips.tip03 "- Rettelse af tegnsæt i &apos;Oversættelsesfil&apos; under en oversættelse kan erstatte nogle oversættelser med den aktuelle i den indlæste oversættelsesfil (hvis der er en).">
+<!ENTITY about.tips.tip04 "- &apos;Ctrl-enter&apos; er en tastaturgenvej til at vælge næste element.">

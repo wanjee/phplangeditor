@@ -1,0 +1,56 @@
+<!ENTITY application.name "phpLangEditor">
+<!ENTITY application.version "2.5">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "Stringa">
+<!ENTITY label.reference "Testo di riferimento">
+<!ENTITY label.translation "Testo della traduzione">
+<!ENTITY button.previous "Precedente">
+<!ENTITY button.next "Successivo">
+<!ENTITY menu.file "File">
+<!ENTITY menu.file.acceskey "f">
+<!ENTITY menu.view "Visualizza">
+<!ENTITY menu.view.acceskey "v">
+<!ENTITY menu.help "Guida">
+<!ENTITY menu.help.acceskey "h">
+<!ENTITY popup.openReference.label "Apri file di riferimento">
+<!ENTITY popup.openReference.accesskey "O">
+<!ENTITY popup.openTranslation.label "Apri file della traduzione">
+<!ENTITY popup.openTranslation.accesskey "r">
+<!ENTITY popup.save.label "Salva il file della traduzione">
+<!ENTITY popup.save.accesskey "S">
+<!ENTITY popup.saveAs.label "Salva il file della traduzione con nome">
+<!ENTITY popup.saveAs.accesskey "a">
+<!ENTITY popup.selectPreviousItem.label "Seleziona l&apos;elemento precedente">
+<!ENTITY popup.selectPreviousItem.accesskey "p">
+<!ENTITY popup.selectNextItem.label "Seleziona l&apos;elemento successivo">
+<!ENTITY popup.selectNextItem.accesskey "n">
+<!ENTITY popup.exit.label "Esci">
+<!ENTITY popup.exit.accesskey "x">
+<!ENTITY popup.viewAll.label "Visualizza tutto">
+<!ENTITY popup.viewAll.accesskey "a">
+<!ENTITY popup.viewUntranslated.label "Visualizza i non tradotti">
+<!ENTITY popup.viewUntranslated.accesskey "u">
+<!ENTITY popup.about.label "Informazioni">
+<!ENTITY popup.about.accesskey "a">
+<!ENTITY toolbar.openReference.label "Apri riferimento">
+<!ENTITY toolbar.openTranslation.label "Apri traduzione">
+<!ENTITY toolbar.save.label "Salva traduzione">
+<!ENTITY toolbar.viewAll.label "Visualizza tutto">
+<!ENTITY toolbar.viewUntranslated.label "Visualizza i non tradotti">
+<!ENTITY about.close.label "Close">
+<!ENTITY about.about.label "Informazioni">
+<!ENTITY about.version.label "versione">
+<!ENTITY about.createdBy.label "Creato da">
+<!ENTITY about.homepage.label "Sito ufficiale">
+<!ENTITY about.help.label "Guida">
+<!ENTITY about.tips.label "Consigli">
+<!ENTITY about.help.help01 "- Cliccate su &apos;File di riferimento&apos; per selezionare la traduzione originale.">
+<!ENTITY about.help.help02 "- Se il vostro scopo è quello di completare una traduzione esistente cliccate su &apos;File della traduzione&apos; per selezionarlo.">
+<!ENTITY about.help.help03 "- Selezionate la voce che volete tradurre nel pannello di sinistra.">
+<!ENTITY about.help.help04 "- La traduzione originale viene visualizzata nel pannello in alto a destra.">
+<!ENTITY about.help.help05 "- Scrivete la traduzione nel pannello in basso a destra e convalidatela cliccando su &apos;Successivo&apos;">
+<!ENTITY about.help.help06 "- Non dimenticate di salvare il vostro lavoro usando la funzione &apos;Salva traduzione&apos;">
+<!ENTITY about.tips.tip01 "- La modifica del set di caratteri del &apos;File di riferimento&apos; durante una traduzione può generare delle voci duplicate nell&apos;elenco.">
+<!ENTITY about.tips.tip02 "- Selezionate il set di caratteri prima di aprire il file della traduzione. Il file verrà salvato utilizzando questo set di caratteri.">
+<!ENTITY about.tips.tip03 "- La modifica del set di caratteri del &apos;File della traduzione&apos; durante una traduzione può ripristinare alcune traduzioni con una precedente del file della traduzione (se ce n&apos;è una).">
+<!ENTITY about.tips.tip04 "- Potete selezionare l&apos;elemento successivo premendo &apos;Ctrl-Invio&apos; sulla tastiera.">

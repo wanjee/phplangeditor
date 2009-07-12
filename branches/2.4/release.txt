@@ -1,0 +1,10 @@
+Release HowTo
+
+- install.rdf (check version...)
+- clean svn export
+
+- creation of .jar file , compression of what is inside of chrome and delete of content dir into phplangeditor.jar
+- creation of xpi file  , compression of chrome dir with only jar fil inside, install.rdf, chrome.manifest and defaults folder in phplangeditor.xpi
+
+
+- [update claroline documentation]

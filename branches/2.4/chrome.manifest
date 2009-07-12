@@ -1,0 +1,21 @@
+overlay	chrome://browser/content/browser.xul	chrome://phplangeditor/content/phplangeditor_overlay.xul
+
+content	phplangeditor	jar:chrome/phplangeditor.jar!/content/
+
+locale	phplangeditor	en-US	jar:chrome/phplangeditor.jar!/locale/en-US/
+locale	phplangeditor	da-DK	jar:chrome/phplangeditor.jar!/locale/da-DK/
+#locale	phplangeditor	de-DE	jar:chrome/phplangeditor.jar!/locale/de-DE/
+#locale	phplangeditor	es-AR	jar:chrome/phplangeditor.jar!/locale/es-AR/
+locale	phplangeditor	es-ES	jar:chrome/phplangeditor.jar!/locale/es-ES/
+locale	phplangeditor	fi-FI	jar:chrome/phplangeditor.jar!/locale/fi-FI/
+locale	phplangeditor	fr-FR	jar:chrome/phplangeditor.jar!/locale/fr-FR/
+#locale	phplangeditor	it-IT	jar:chrome/phplangeditor.jar!/locale/it-IT/
+locale	phplangeditor	ja-JP	jar:chrome/phplangeditor.jar!/locale/ja-JP/
+locale	phplangeditor	nl-NL	jar:chrome/phplangeditor.jar!/locale/nl-NL/
+locale	phplangeditor	pl-PL	jar:chrome/phplangeditor.jar!/locale/pl-PL/
+locale	phplangeditor	pt-BR	jar:chrome/phplangeditor.jar!/locale/pt-BR/
+locale	phplangeditor	ro-RO	jar:chrome/phplangeditor.jar!/locale/ro-RO/
+#locale	phplangeditor	zh-TW	jar:chrome/phplangeditor.jar!/locale/zh-TW/
+
+skin phplangeditor classic/1.0  jar:chrome/phplangeditor.jar!/skin/
+style chrome://global/content/customizeToolbar.xul chrome://phplangeditor/skin/overlay.css

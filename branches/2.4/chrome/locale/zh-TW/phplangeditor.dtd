@@ -1,0 +1,56 @@
+<!ENTITY application.name "PHP翻譯工具">
+<!ENTITY application.version "2.5">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "String">
+<!ENTITY label.reference "參考文字">
+<!ENTITY label.translation "翻譯文字">
+<!ENTITY button.previous "Previous">
+<!ENTITY button.next "下一個">
+<!ENTITY menu.file "Fichier">
+<!ENTITY menu.file.acceskey "f">
+<!ENTITY menu.view "Affichage">
+<!ENTITY menu.view.acceskey "a">
+<!ENTITY menu.help "?">
+<!ENTITY menu.help.acceskey "?">
+<!ENTITY popup.openReference.label "開啟參考檔案">
+<!ENTITY popup.openReference.accesskey "O">
+<!ENTITY popup.openTranslation.label "開啟翻譯檔案">
+<!ENTITY popup.openTranslation.accesskey "r">
+<!ENTITY popup.save.label "儲?翻譯檔案">
+<!ENTITY popup.save.accesskey "S">
+<!ENTITY popup.saveAs.label "另?翻譯檔案">
+<!ENTITY popup.saveAs.accesskey "a">
+<!ENTITY popup.selectPreviousItem.label "Select previous item">
+<!ENTITY popup.selectPreviousItem.accesskey "p">
+<!ENTITY popup.selectNextItem.label "選擇下一個項目">
+<!ENTITY popup.selectNextItem.accesskey "c">
+<!ENTITY popup.exit.label "離開">
+<!ENTITY popup.exit.accesskey "x">
+<!ENTITY popup.viewAll.label "檢視全部">
+<!ENTITY popup.viewAll.accesskey "a">
+<!ENTITY popup.viewUntranslated.label "檢視未翻譯">
+<!ENTITY popup.viewUntranslated.accesskey "u">
+<!ENTITY popup.about.label "關於">
+<!ENTITY popup.about.accesskey "a">
+<!ENTITY toolbar.openReference.label "開啟參考檔案">
+<!ENTITY toolbar.openTranslation.label "開啟翻譯檔案">
+<!ENTITY toolbar.save.label "儲?翻譯">
+<!ENTITY toolbar.viewAll.label "檢視全部">
+<!ENTITY toolbar.viewUntranslated.label "檢視未翻譯">
+<!ENTITY about.close.label "Close">
+<!ENTITY about.about.label "關於">
+<!ENTITY about.version.label "版本">
+<!ENTITY about.createdBy.label "作者">
+<!ENTITY about.homepage.label "網站">
+<!ENTITY about.help.label "說?">
+<!ENTITY about.tips.label "小技巧">
+<!ENTITY about.help.help01 "- 點選 &apos;參考檔案&apos; 來選擇希望翻譯的資料來源。">
+<!ENTITY about.help.help02 "- 如果希望繼續未完成的翻譯就點選 &apos;翻譯檔案&apos; 來指定。">
+<!ENTITY about.help.help03 "- 在左手邊的清單中選擇希望翻譯的項目。">
+<!ENTITY about.help.help04 "- 您會在右上角看到原始字串。">
+<!ENTITY about.help.help05 "- 在右下角輸入翻譯字串、確認後點選 &apos;下一個&apos;。">
+<!ENTITY about.help.help06 "- 過程中?得經常透過 &apos;儲?翻譯&apos; 按鈕來更新資料，以免需要重新來過。">
+<!ENTITY about.tips.tip01 "- 在翻譯期間修改參考檔案的字元編碼會在列表中產生 重複的項目。">
+<!ENTITY about.tips.tip02 "- 翻譯的字元編碼?用於開啟翻譯檔案或?儲?翻譯結果。">
+<!ENTITY about.tips.tip03 "- 在翻譯期間修改翻譯檔案的字元編碼可能會換成舊有（如果有的話）的翻譯資料">
+<!ENTITY about.tips.tip04 "- &apos;Ctrl-enter&apos; ?選擇下一個項目的快速鍵。">

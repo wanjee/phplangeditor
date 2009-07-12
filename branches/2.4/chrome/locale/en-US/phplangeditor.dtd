@@ -1,0 +1,56 @@
+<!ENTITY application.name "phpLangEditor">
+<!ENTITY application.version "2.5">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "String">
+<!ENTITY label.reference "Reference text">
+<!ENTITY label.translation "Translation text">
+<!ENTITY button.previous "Previous">
+<!ENTITY button.next "Next">
+<!ENTITY menu.file "File">
+<!ENTITY menu.file.acceskey "f">
+<!ENTITY menu.view "View">
+<!ENTITY menu.view.acceskey "v">
+<!ENTITY menu.help "Help">
+<!ENTITY menu.help.acceskey "h">
+<!ENTITY popup.openReference.label "Open reference file">
+<!ENTITY popup.openReference.accesskey "O">
+<!ENTITY popup.openTranslation.label "Open translation file">
+<!ENTITY popup.openTranslation.accesskey "r">
+<!ENTITY popup.save.label "Save translation file">
+<!ENTITY popup.save.accesskey "S">
+<!ENTITY popup.saveAs.label "Save translation file as">
+<!ENTITY popup.saveAs.accesskey "a">
+<!ENTITY popup.selectPreviousItem.label "Select previous item">
+<!ENTITY popup.selectPreviousItem.accesskey "p">
+<!ENTITY popup.selectNextItem.label "Select next item">
+<!ENTITY popup.selectNextItem.accesskey "n">
+<!ENTITY popup.exit.label "Exit">
+<!ENTITY popup.exit.accesskey "x">
+<!ENTITY popup.viewAll.label "View all">
+<!ENTITY popup.viewAll.accesskey "a">
+<!ENTITY popup.viewUntranslated.label "View untranslated">
+<!ENTITY popup.viewUntranslated.accesskey "u">
+<!ENTITY popup.about.label "About">
+<!ENTITY popup.about.accesskey "a">
+<!ENTITY toolbar.openReference.label "Open reference">
+<!ENTITY toolbar.openTranslation.label "Open translation">
+<!ENTITY toolbar.save.label "Save translation">
+<!ENTITY toolbar.viewAll.label "View all">
+<!ENTITY toolbar.viewUntranslated.label "View untranslated">
+<!ENTITY about.close.label "Close">
+<!ENTITY about.about.label "About">
+<!ENTITY about.version.label "version">
+<!ENTITY about.createdBy.label "Created by">
+<!ENTITY about.homepage.label "Homepage">
+<!ENTITY about.help.label "Help">
+<!ENTITY about.tips.label "Tips">
+<!ENTITY about.help.help01 "- Click on &apos;Reference file&apos; to select the original translation.">
+<!ENTITY about.help.help02 "- If you aim to complete an existing translation click on &apos;Translation file&apos; to select it.">
+<!ENTITY about.help.help03 "- On the left pane select the item you are going to translate.">
+<!ENTITY about.help.help04 "- You will see the original translation on the upper right pane.">
+<!ENTITY about.help.help05 "- Write your translation on the lower right pane and validate it by clicking on &apos;Next&apos;.">
+<!ENTITY about.help.help06 "- Don&apos;t forget to save your work using &apos;Save translation&apos;.">
+<!ENTITY about.tips.tip01 "- Modify the charset of the &apos;Reference file&apos; during a translation can generate duplicate entries in the item list.">
+<!ENTITY about.tips.tip02 "- Select the translation charset before opening the translation file.  Saved file will be saved using this charset.">
+<!ENTITY about.tips.tip03 "- Modify the charset of the &apos;Translation file&apos; during a translation could replace some translations by the one present if the loaded translation file (if there is one).">
+<!ENTITY about.tips.tip04 "- &apos;Ctrl-enter&apos; is a keyboard shortcut to select the next item.">

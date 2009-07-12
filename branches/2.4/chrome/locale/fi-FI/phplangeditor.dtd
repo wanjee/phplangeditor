@@ -1,0 +1,56 @@
+<!ENTITY application.name "phpLangEditor">
+<!ENTITY application.version "2.5">
+<!ENTITY application.author "Fragile">
+<!ENTITY treecol.string "Rivi">
+<!ENTITY label.reference "Lähdeteksti">
+<!ENTITY label.translation "Käännetty teksti">
+<!ENTITY button.previous "Edellinen">
+<!ENTITY button.next "Seuraava">
+<!ENTITY menu.file "Tiedosto">
+<!ENTITY menu.file.acceskey "t">
+<!ENTITY menu.view "Katso">
+<!ENTITY menu.view.acceskey "k">
+<!ENTITY menu.help "Apua">
+<!ENTITY menu.help.acceskey "a">
+<!ENTITY popup.openReference.label "Avaa lähdetiedosto">
+<!ENTITY popup.openReference.accesskey "O">
+<!ENTITY popup.openTranslation.label "Avaa käännöstiedosto">
+<!ENTITY popup.openTranslation.accesskey "r">
+<!ENTITY popup.save.label "Tallenna käännöstiedosto">
+<!ENTITY popup.save.accesskey "S">
+<!ENTITY popup.saveAs.label "Tallenna käännöstiedosto...">
+<!ENTITY popup.saveAs.accesskey "a">
+<!ENTITY popup.selectPreviousItem.label "Valitse Edellinen">
+<!ENTITY popup.selectPreviousItem.accesskey "p">
+<!ENTITY popup.selectNextItem.label "Valitse Seuraava">
+<!ENTITY popup.selectNextItem.accesskey "n">
+<!ENTITY popup.exit.label "Sulje">
+<!ENTITY popup.exit.accesskey "x">
+<!ENTITY popup.viewAll.label "Katso kaikki">
+<!ENTITY popup.viewAll.accesskey "a">
+<!ENTITY popup.viewUntranslated.label "Näytä kääntämättömät">
+<!ENTITY popup.viewUntranslated.accesskey "u">
+<!ENTITY popup.about.label "Tietoja">
+<!ENTITY popup.about.accesskey "a">
+<!ENTITY toolbar.openReference.label "Avaa lähde">
+<!ENTITY toolbar.openTranslation.label "Avaa käännös">
+<!ENTITY toolbar.save.label "Tallenna käännös">
+<!ENTITY toolbar.viewAll.label "Katso kaikki">
+<!ENTITY toolbar.viewUntranslated.label "Näytä kääntämättömät">
+<!ENTITY about.close.label "Sulje">
+<!ENTITY about.about.label "Tietoja">
+<!ENTITY about.version.label "versio">
+<!ENTITY about.createdBy.label "Tekijä">
+<!ENTITY about.homepage.label "Kotisivu">
+<!ENTITY about.help.label "Apua">
+<!ENTITY about.tips.label "Ohjeita">
+<!ENTITY about.help.help01 "- Klikkaa &quot;Lähdetiedosto&quot; valitaksesi alkuperäisen käännöksen.">
+<!ENTITY about.help.help02 "- Jos aiot viimeistellä olemassa olevan tiedoston, klikkkaa &quot;Käännös tiedosto&quot; valitaksesi sen.">
+<!ENTITY about.help.help03 "- Vasemmalla paneelissa kohde, jonka aiot kääntää.">
+<!ENTITY about.help.help04 "- Näet alkuperäisen käännökset oikeassa yläkulmassa.">
+<!ENTITY about.help.help05 "- Kirjoita käännöksesi alempaan oikeaan paneeliin ja hyväksy &quot;Seuraava&quot;.">
+<!ENTITY about.help.help06 "- Älä unohda tallentaa työtäsi &quot;Tallenna käännös&quot;.">
+<!ENTITY about.tips.tip01 "- Modify the charset of the &apos;Reference file&apos; during a translation can generate duplicate entries in the item list.">
+<!ENTITY about.tips.tip02 "- Select the translation charset before opening the translation file. Saved file will be saved using this charset.">
+<!ENTITY about.tips.tip03 "- Modify the charset of the &apos;Translation file&apos; during a translation could replace some translations by the one present if the loaded translation file (if there is one).">
+<!ENTITY about.tips.tip04 "- &quot;Ctrl-enter&quot; Valitsee kaikki kohteet.">
