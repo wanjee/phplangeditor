@@ -9,10 +9,19 @@
 	<menupopup id="menu_ToolsPopup">
 		<menuitem id="phplangeditorOpen"
 			label="phpLangEditor" 
-			oncommand="loadPhpLangEditor();" 
+			oncommand="loadPhpLangEditor()" 
+ 			key="link-phplangeditor-run-key"
 			class="menuitem-iconic"
 			insertafter="devToolsSeparator" />
 	</menupopup>
+<!-- Firefox 4 Web Developer menu -->
+<menupopup id="appmenu_webDeveloper_popup">
+  <menuitem id="appmenu_phpLangEditor" label="phpLangEditor" oncommand="loadPhpLangEditor()" accesskey="P" insertbefore="appmenu_webConsole" class="menuitem-iconic" iconic="true" />
+  <menuseparator insertbefore="appmenu_webConsole" />
+</menupopup>
+        <keyset>
+                <key id="link-phplangeditor-run-key" modifiers="alt shift" key="P" oncommand="loadPhpLangEditor();" />
+        </keyset>
 
   <toolbarpalette id="BrowserToolbarPalette">
     <toolbarbutton id="phplangeditor-button"
