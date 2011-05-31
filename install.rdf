@@ -69,9 +69,10 @@
         
 		<!-- Front End MetaData -->
 		<em:name>phplangeditor</em:name>
-		<em:version>2.5</em:version>
+		<em:version>2.6</em:version>
 		<em:description>PHP language files editor</em:description>
         <em:creator>Sébastien Piraux</em:creator>
+        <em:contributor>Yannick Warnier</em:contributor>
         <em:translator>www.babelzilla.org</em:translator>        
         <em:homepageURL>http://code.google.com/p/phplangeditor/</em:homepageURL>
 		
@@ -80,7 +81,7 @@
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>2.0</em:minVersion>
-				<em:maxVersion>3.0.*</em:maxVersion>
+				<em:maxVersion>4.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		<em:iconURL>chrome://phplangeditor/skin/icons/logo32.png</em:iconURL>
