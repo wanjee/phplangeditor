@@ -2,7 +2,9 @@
 
     <Description about="urn:mozilla:install-manifest">
 
-    	<em:id>{77e8295d-7048-8367-1c67-378537c06d74}</em:id>
+    <em:id>{77e8295d-7048-8367-1c67-378537c06d74}</em:id>
+    <em:type>2</em:type>
+    <em:unpack>true</em:unpack>
 		<em:localized>
 		  <Description>
 		    <em:locale>da-DK</em:locale>
